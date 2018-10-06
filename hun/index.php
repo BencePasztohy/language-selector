@@ -6,5 +6,6 @@
 <body>
     <?php include('include/lang-selector.php'); ?>
     <h1>Magyar</h1>
+    <a href="about.php">Infó</a>
 </body>
 </html>

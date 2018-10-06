@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <?php 
-session_start();
+
 include('include/session.php');
 if ($_SESSION['language'] == 'eng') {
-    include('eng/index.php');
+    include('eng/about.php');
 } else {
-    include('hun/index.php');
+    include('hun/about.php');
 }
 
 ?>
